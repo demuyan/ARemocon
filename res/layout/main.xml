@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+	<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/single_tweet_header"
+    	android:orientation="vertical"
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content">
+
+	 <Button
+		android:id="@+id/ch1_button"
+		android:text="ch1"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:width="100dip"
+		android:height="100dip"
+	/>
+
+	 <Button
+		android:id="@+id/ch2_button"
+		android:text="ch2"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_toRightOf="@+id/ch1_button"
+		android:width="100dip"
+		android:height="100dip"
+	/>
+
+	 <Button
+		android:id="@+id/ch3_button"
+		android:text="ch3"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_toRightOf="@+id/ch2_button"
+		android:width="100dip"
+		android:height="100dip"
+	/>
+
+	 <ToggleButton
+		android:id="@+id/rec_button"
+		android:textOn="記録"
+		android:textOff="送信"
+		android:layout_height="wrap_content"
+		android:layout_width="wrap_content"
+		android:layout_below="@+id/ch1_button"
+		android:width="100dip"
+		android:height="50dip"
+	/>
+		
+</RelativeLayout>
+
